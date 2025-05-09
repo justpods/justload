@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 
 import pytest
 from dotenv import load_dotenv
@@ -6,6 +7,11 @@ from instaloader import Instaloader
 
 
 load_dotenv()
+
+
+@pytest.fixture(scope="session")
+def testpath():
+    return Path(__file__).parent
 
 
 @pytest.fixture(scope='session')

@@ -9,4 +9,3 @@ like Instagram, X, or facebook.
 
 1. Download all profile.
 2. Download profile with range for incremental load.
-
