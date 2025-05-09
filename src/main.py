@@ -25,7 +25,15 @@ def load_profile_sort_by_like():
         L.download_post(post, target=f"../data/{PROFILE}")
 
 
-def load_profile_from_period(start_date: datetime, end_date: datetime):
+def load_profile_from_period(
+    start_date: datetime,
+    end_date: datetime,
+) -> None:
+    """Load profile post with range between start and end datetime objects.
+
+    :param start_date:
+    :param end_date:
+    """
     profile = Profile.from_username(L.context, PROFILE)
     posts = profile.get_posts()
 

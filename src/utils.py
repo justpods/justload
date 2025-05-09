@@ -4,6 +4,7 @@ from instaloader import Instaloader, Post, load_structure_from_file
 
 
 def offline_posts(l: Instaloader, profile: str):
+    """Offline posts"""
     return set(
         filter(
             lambda s: isinstance(s, Post),
