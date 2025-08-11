@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from src.main import login
+from justload.main import login
 
 
 def test_login(testpath: Path):

@@ -10,7 +10,7 @@ load_dotenv()
 
 
 @pytest.fixture(scope="session")
-def testpath():
+def test_path():
     return Path(__file__).parent
 
 

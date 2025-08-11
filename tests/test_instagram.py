@@ -1,6 +1,6 @@
 import os
 
-from src.main import Instagram, load_profile_sort_by_like
+from justload.main import Instagram, load_profile_sort_by_like
 
 
 def test_func_load_profile_sort_by_like():

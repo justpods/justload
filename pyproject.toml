@@ -1,0 +1,29 @@
+[build-system]
+requires = [ "hatchling>=1.8.0" ]
+build-backend = "hatchling.build"
+
+[project]
+name = "justload"
+requires-python = ">=3.11"
+dependencies = [
+    "python-dotenv==1.1.1",
+    "instaloader==4.14.2",
+    "python-dotenv==1.1.1",
+    "pytest",
+    "click==8.2.1",
+    # NOTE: YouTube Platform
+    "pytube==15.0.0",
+    "pytubefix==9.4.1",
+]
+dynamic = ["version"]
+
+[project.scripts]
+justload = "justload.__main__:cli"
+
+[tool.hatch.version]
+scheme = "standard"
+source = "code"
+path = "justload/__about__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = [ "justload" ]

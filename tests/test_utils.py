@@ -1,6 +1,6 @@
 from instaloader import Instaloader
 
-from src.utils import offline_posts
+from justload.utils import offline_posts
 
 
 def test_offline_posts(installer: Instaloader, profile: str):
