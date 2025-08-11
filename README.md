@@ -1,7 +1,7 @@
 # Just a Profile Loader
 
 Just a profile loader tools that use to load any profile from social platform
-like Instagram, X, or facebook.
+like `Instagram`, `X`, or `facebook`.
 
 ## Installation
 
