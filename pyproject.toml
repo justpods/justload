@@ -10,7 +10,7 @@ dependencies = [
     "instaloader==4.14.2",
     "python-dotenv==1.1.1",
     "pytest",
-    "click==8.2.1",
+    "click==8.3.0",
     # NOTE: YouTube Platform
     "pytube==15.0.0",
     "pytubefix==9.4.1",
