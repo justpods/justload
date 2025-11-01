@@ -6,9 +6,9 @@ build-backend = "hatchling.build"
 name = "justload"
 requires-python = ">=3.11"
 dependencies = [
-    "python-dotenv==1.1.1",
+    "python-dotenv==1.2.1",
     "instaloader==4.14.2",
-    "python-dotenv==1.1.1",
+    "python-dotenv==1.2.1",
     "pytest",
     "click==8.2.1",
     # NOTE: YouTube Platform
