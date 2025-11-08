@@ -14,7 +14,7 @@ dependencies = [
     # NOTE: YouTube Platform
     "pytube==15.0.0",
     "pytubefix==9.4.1",
-    "yt_dlp==2025.7.21",
+    "yt_dlp==2025.10.22",
 ]
 dynamic = ["version"]
 
